@@ -1394,8 +1394,8 @@
 :root .app-2rEoOp::before {
   top: 40px;
   right: 76px;
-  width: 100%;
-  height: 100%;
+  width: 400px;
+  height: 240px;
   background: url("https://i.imgur.com/w3WOdoP.png") no-repeat;
   background-size: 100%;
 }
