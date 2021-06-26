@@ -1713,6 +1713,9 @@ margin-top: 10px;
 .badgeList-1R1WgZ {
     padding-right: 12px;
 margin: 30px;
+position: relative;
+    top: 23px;
+    right: 39px;
 }
 .theme-dark .lookFilled-1Gx00P {
     background-color: rgb(197, 83, 108) !important;
