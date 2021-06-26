@@ -1292,7 +1292,7 @@
   background-color: var(--background-primary);
 }
 :root .nowPlayingColumn-2sl4cE::before {
-  content: "Friends activity";
+  content: "Aktywni Znajomi";
   position: absolute;
   top: -60px;
   z-index: 1;
@@ -1394,8 +1394,8 @@
 :root .app-2rEoOp::before {
   top: 80px;
   right: 116px;
-  width: 400px;
-  height: 240px;
+  width: 100%;
+  height: 100%;
   background: url("https://i.imgur.com/w3WOdoP.png") no-repeat;
   background-size: 100%;
 }
@@ -1654,7 +1654,7 @@
   }
 
   .container-2lgZY8::after {
-    content: "Stay comfy ❤";
+    content: "Zachowaj wygodę ❤";
     position: fixed;
     top: 220px;
     bottom: 85px;
