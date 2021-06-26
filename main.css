@@ -1838,4 +1838,8 @@ position: relative;
     -webkit-box-align: center;
     align-items: center;
 }
+.userPopout-xaxa6l .timeBarUserPopout-AWPFf2::after {
+  background: #1db9547d;
+  filter: blur(8px);
+}
 }
