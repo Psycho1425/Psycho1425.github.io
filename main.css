@@ -1842,4 +1842,27 @@ position: relative;
   background: #1db9547d;
   filter: blur(8px);
 }
+.headerSpotify-zpWxgT .activityUserPopout-2yItg2 {
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px);
+}
+.topSectionSpotify-1lI0-P .activityProfile-2bJRaP {
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px);
+    box-shadow: 0px 4px 0px #66ff0099 !important;
+}
+.headerPlaying-j0WQBV .activityUserPopout-2yItg2 {
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px);
+}
+.topSectionPlaying-1J5E4n .activityProfile-2bJRaP {
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px);
+    box-shadow: 0px 4px 0px #46599c;
+}
+.headerPlaying-j0WQBV .lookOutlined-3sRXeN.colorWhite-rEQuAQ {
+    box-shadow: 0px 3px 0px #46599c;
+    border: 0.2px solid #46599c !important;
+    transition: 0.15s;
+}
 }
