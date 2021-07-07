@@ -585,7 +585,7 @@
 }
 
 :root .membersWrap-2h-GB4::before {
-  content: "Member list";
+  content: "Lista Użytkowników";
   position: absolute;
   top: -60px;
   z-index: 1;
@@ -1743,7 +1743,7 @@
   }
 
   .container-2lgZY8::after {
-    content: "Stay comfy ❤";
+    content: "Zachowaj wygodę ❤";
     position: fixed;
     top: 220px;
     bottom: 85px;
