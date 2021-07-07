@@ -29,7 +29,7 @@
   --background-tertiary: #220f14;
   --background-floating: #221115;
   --background-accent: #c5536c;
-  --activity-card-background: var(--background-secondary-alt);
+  --activity-card-background:a var(--background-secondary-alt);
   --channeltextarea-background: var(--background-secondary);
   --background-modifier-hover: rgba(56, 31, 31, 0.32);
   --background-modifier-active: rgba(19, 12, 12, 0.32);
