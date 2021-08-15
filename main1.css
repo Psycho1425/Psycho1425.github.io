@@ -241,6 +241,24 @@ body footer img {
   margin-right: 15px;
 }
 
+.mlk-open-vote {
+    position: fixed;
+    z-index: 99999;
+    right: 0;
+    top: 40%;
+    border-radius: 0 3px 3px 0;
+    background: #e87b07;
+    box-shadow: 0 0 0 5px #e87b07;
+    border: 1px solid rgba(0,0,0,.1);
+    cursor: pointer;
+    width: 18px;
+    padding: 10px 2px;
+    font-size: 12px;
+    opacity: 0.5;
+    transition: .1s all linear;
+    box-shadow: 0 0 10px 0 #e87b07;
+}
+
 #bgAudio {
 position:fixed;
 z-index:1000; 
