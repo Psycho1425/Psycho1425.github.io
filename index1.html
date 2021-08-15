@@ -140,5 +140,20 @@ data-config="{'skin':'skins/cyber/skin.css','volume':10,'autoplay':true,'shuffle
         </a>
 
     </footer>
+	<script>
+var vid = document.getElementById("bgAudio");
+
+function getVolume() { 
+  alert(vid.volume);
+} 
+  
+function setHalfVolume() { 
+  vid.volume = 0.2;
+} 
+  
+function setFullVolume() { 
+  vid.volume = 1.0;
+} 
+</script> 
 </body>
 </html>
