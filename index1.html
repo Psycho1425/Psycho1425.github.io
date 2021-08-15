@@ -16,7 +16,7 @@ data-config="{'skin':'skins/cyber/skin.css','volume':10,'autoplay':true,'shuffle
 <!-- SCM Music Player script end -->
 
 
-<audio id="bgAudio" autoplay="autoplay" controls="controls" loop="loop" src="volume.mp3"></audio>
+<audio id="bgAudio" autoplay="autoplay" controls="controls" loop="loop" volume="0.2" src="volume.mp3"></audio>
 
     <header>
         <img id="avatar" src="https://discord.c99.nl/widget/theme-4/634884694248259584.png" alt="Psycho avatar">
@@ -140,14 +140,5 @@ data-config="{'skin':'skins/cyber/skin.css','volume':10,'autoplay':true,'shuffle
         </a>
 
     </footer>
-	
-$(document).ready(function() {
-    // the site has now loaded, grab the video!
-    bgAudio = document.getElementById("bgAudio");
-    // now tweak the volume!
-    bgAudio.volume = 0.2;
-    // now, play it!
-    bgAudio.play();
-});	
 </body>
 </html>
