@@ -17,7 +17,10 @@ data-config="{'skin':'skins/cyber/skin.css','volume':10,'autoplay':true,'shuffle
 
 
 <audio id="bgAudio" autoplay="autoplay" controls="controls" loop="loop" volume="0.2" src="volume.mp3"></audio>
-
+<script>
+  var audio = document.getElementById("bgAudio");
+  audio.volume = 0.2;
+</script>
     <header>
         <img id="avatar" src="https://discord.c99.nl/widget/theme-4/634884694248259584.png" alt="Psycho avatar">
     </header>
@@ -140,20 +143,5 @@ data-config="{'skin':'skins/cyber/skin.css','volume':10,'autoplay':true,'shuffle
         </a>
 
     </footer>
-	<script>
-var vid = document.getElementById("bgAudio");
-
-function getVolume() { 
-  alert(vid.volume);
-} 
-  
-function setHalfVolume() { 
-  vid.volume = 0.2;
-} 
-  
-function setFullVolume() { 
-  vid.volume = 1.0;
-} 
-</script> 
 </body>
 </html>
