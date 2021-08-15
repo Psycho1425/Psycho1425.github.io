@@ -240,4 +240,10 @@ body footer img {
   height: 30px;
   margin-right: 15px;
 }
+
+#bgAudio {
+position:fixed;
+z-index:1000; 
+width:250px;
+}
 /*# sourceMappingURL=main.css.map */
